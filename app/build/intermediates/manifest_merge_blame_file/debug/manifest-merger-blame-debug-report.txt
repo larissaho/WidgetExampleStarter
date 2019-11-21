@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.washington.widgetexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:5:22-75
+12
+13    <application
+13-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:7:5-26:19
+14        android:allowBackup="true"
+14-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/larissaho/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:13:9-40
+23        <service
+23-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:14:9-17:47
+24            android:name="edu.washington.widgetexample.WidgetService"
+24-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:15:13-42
+25            android:enabled="true"
+25-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:16:13-35
+26            android:exported="true" />
+26-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:17:13-36
+27
+28        <activity android:name="edu.washington.widgetexample.MainActivity" >
+28-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:19:9-25:20
+28-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:21:17-69
+30-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:23:17-77
+32-->/Users/larissaho/Desktop/UW/INFO448/WidgetExampleStarter/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
